@@ -1,0 +1,74 @@
+/* Light Theme */
+body {
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;    
+}
+
+header {
+    
+    background-color: #168dc5;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#cardds {
+    align-items: center;
+    text-align: justify;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+.almid{
+    align-items: center;
+    vertical-align: middle;
+}
+  
+  #frame {
+    width: 40%;
+    /* height: 40%; */
+    border-radius: 50%;
+    border-width: 2px;
+    border: #ffffff;
+    border-style: solid;
+  }
+
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
